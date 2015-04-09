@@ -625,9 +625,7 @@ class QuickUploadFile(QuickUploadAuthenticate):
 
         response.setHeader('Expires', 'Sat, 1 Jan 2000 00:00:00 GMT')
         response.setHeader('Cache-control', 'no-cache')
-        # the good content type woul be text/json or text/plain but IE
-        # do not support it
-        response.setHeader('Content-Type', 'text/html; charset=utf-8')
+        response.setHeader('Content-Type', 'application/json; charset=utf-8')
         # disable diazo themes
         request.response.setHeader('X-Theme-Disabled', 'True')
 

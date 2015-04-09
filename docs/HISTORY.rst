@@ -4,7 +4,8 @@ Changelog
 1.6.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Set the correct content type for json response.
+  [enfold-josh]
 
 
 1.6.6 (2014-12-09)
